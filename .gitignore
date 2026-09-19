@@ -157,6 +157,24 @@ ENV/
 env.bak/
 venv.bak/
 
+# uv environment directories
+.venv/
+.uv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Data/Weights (Prevents uploading huge model files later)
+*.pt
+*.pth
+*.bin
+*.onnx
+data/
+
 # Spyder project settings
 .spyderproject
 .spyproject
