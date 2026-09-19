@@ -31,7 +31,7 @@ Click on any phase to view my notes and code implementations for that specific b
 ---
 
 ## 🛠️ Tech Stack & Tooling
-* **Language:** Python 3.x
+* **Language:** Python 3.10+
 * **Version Control:** Git & GitHub
 * **Environment:** Virtual Environments (`venv`) / Conda
 
