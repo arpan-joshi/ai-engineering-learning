@@ -1,0 +1,71 @@
+# exercises.py
+
+# Exercise 1
+# Add two vectors
+
+vector_a = [2, 4, 6]
+vector_b = [1, 3, 5]
+
+addition = [a + b for a, b in zip(vector_a, vector_b)]
+
+print("Exercise 1 - Vector Addition:")
+print(addition)
+
+
+# Exercise 2
+# Calculate the dot product
+
+dot_product = sum(a * b for a, b in zip(vector_a, vector_b))
+
+print("\nExercise 2 - Dot Product:")
+print(dot_product)
+
+
+# Exercise 3
+# Multiply a vector by 3
+
+result = [3 * x for x in vector_a]
+
+print("\nExercise 3 - Scalar Multiplication:")
+print(result)
+
+
+# Exercise 4
+# Find the transpose of a matrix
+
+matrix = [
+    [1, 2],
+    [3, 4]
+]
+
+transpose = [
+    [matrix[j][i] for j in range(2)]
+    for i in range(2)
+]
+
+print("\nExercise 4 - Matrix Transpose:")
+for row in transpose:
+    print(row)
+
+
+# Exercise 5
+# Add two matrices
+
+matrix_a = [
+    [1, 2],
+    [3, 4]
+]
+
+matrix_b = [
+    [5, 6],
+    [7, 8]
+]
+
+result = [
+    [matrix_a[i][j] + matrix_b[i][j] for j in range(2)]
+    for i in range(2)
+]
+
+print("\nExercise 5 - Matrix Addition:")
+for row in result:
+    print(row)
