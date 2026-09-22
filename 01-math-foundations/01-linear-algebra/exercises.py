@@ -69,3 +69,47 @@ result = [
 print("\nExercise 5 - Matrix Addition:")
 for row in result:
     print(row)
+    break
+
+
+# -------------------------
+# Eigenvalue Exercise
+# -------------------------
+
+import numpy as np
+
+matrix = np.array([
+    [4, 0],
+    [0, 5]
+])
+
+eigenvalues = np.linalg.eigvals(matrix)
+
+print("\nExercise 6 - Eigenvalues:")
+print(eigenvalues)
+
+
+# -------------------------
+# Eigenvector Exercise
+# -------------------------
+
+eigenvalues, eigenvectors = np.linalg.eig(matrix)
+
+print("\nExercise 7 - Eigenvectors:")
+print(eigenvectors)
+
+
+# -------------------------
+# Norm Exercise
+# -------------------------
+
+vector = np.array([6, 8])
+
+l1 = np.linalg.norm(vector, ord=1)
+l2 = np.linalg.norm(vector, ord=2)
+linf = np.linalg.norm(vector, ord=np.inf)
+
+print("\nExercise 8 - Norms:")
+print("L1:", l1)
+print("L2:", l2)
+print("Infinity:", linf)
