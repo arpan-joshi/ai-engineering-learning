@@ -24,6 +24,9 @@ operations used in AI and implementing them using Python and NumPy.
 - Matrix subtraction
 - Matrix multiplication
 - Matrix transpose
+- Matrix inverse
+- Determinant
+- Matrix rank
 
 ### Vector Norms
 
@@ -38,10 +41,18 @@ operations used in AI and implementing them using Python and NumPy.
 - Eigenvalue/eigenvector relationship
 - Verification of eigenvectors
 
+### PCA Connection
+
+- Principal Component Analysis
+- Dimensionality reduction
+- Relationship between PCA and eigenvectors
+- Relationship between PCA and eigenvalues
+
 ## Tools
 
 - Python
 - NumPy
+- Scikit-learn
 
 ## Files
 
@@ -52,6 +63,10 @@ operations used in AI and implementing them using Python and NumPy.
 | `norms.py` | L1, L2, and Infinity norms |
 | `eigenvalues.py` | Eigenvalue calculation |
 | `eigenvectors.py` | Eigenvalue and eigenvector calculation and verification |
+| `matrix_inverse.py` | Matrix inverse calculation |
+| `determinant.py` | Determinant calculation |
+| `matrix_rank.py` | Matrix rank calculation |
+| `pca_connection.py` | Simple PCA implementation and Linear Algebra connection |
 | `exercises.py` | Linear algebra practice exercises |
 
 ## Learning Goal
@@ -86,16 +101,15 @@ rather than only using ready-made library functions.
 - [x] Eigenvalues
 - [x] Eigenvectors
 - [x] Eigenvalue/eigenvector verification
+- [x] Matrix inverse
+- [x] Determinant
+- [x] Matrix rank
 
-### Remaining Topics
+### Machine Learning Connection
 
-- [ ] Matrix inverse
-- [ ] Determinant
-- [ ] Matrix rank
-- [ ] Linear independence
-- [ ] Basis and vector spaces
-- [ ] PCA connection
-- [ ] Advanced Linear Algebra
+- [x] PCA introduction
+- [x] Dimensionality reduction
+- [x] Eigenvalues/eigenvectors in PCA
 
 ## Machine Learning Connection
 
@@ -113,7 +127,4 @@ Linear Algebra is used extensively in:
 
 ## Next Step
 
-After completing the remaining Linear Algebra concepts,
-continue to:
-
-**02 - Calculus**
+**Phase 1 → 02 Calculus**
