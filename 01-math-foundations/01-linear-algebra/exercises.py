@@ -113,3 +113,72 @@ print("\nExercise 8 - Norms:")
 print("L1:", l1)
 print("L2:", l2)
 print("Infinity:", linf)
+
+# -------------------------
+# Exercise 9 - Determinant
+# -------------------------
+
+import numpy as np
+
+A = np.array([
+    [3, 2],
+    [1, 4]
+])
+
+det = np.linalg.det(A)
+
+print("\nExercise 9 - Determinant:")
+print(det)
+
+
+# -------------------------
+# Exercise 10 - Matrix Inverse
+# -------------------------
+
+A_inverse = np.linalg.inv(A)
+
+print("\nExercise 10 - Matrix Inverse:")
+print(A_inverse)
+
+print("\nVerification:")
+print(A_inverse @ A)
+
+
+# -------------------------
+# Exercise 11 - Matrix Rank
+# -------------------------
+
+B = np.array([
+    [1, 2],
+    [2, 4]
+])
+
+rank = np.linalg.matrix_rank(B)
+
+print("\nExercise 11 - Matrix Rank:")
+print(rank)
+
+
+# -------------------------
+# Exercise 12 - PCA
+# -------------------------
+
+from sklearn.decomposition import PCA
+
+X = np.array([
+    [1, 2],
+    [2, 4],
+    [3, 6],
+    [4, 8],
+    [5, 10]
+])
+
+pca = PCA(n_components=1)
+
+X_reduced = pca.fit_transform(X)
+
+print("\nExercise 12 - PCA:")
+print(X_reduced)
+
+print("\nExplained Variance:")
+print(pca.explained_variance_ratio_)
