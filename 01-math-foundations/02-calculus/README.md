@@ -51,8 +51,10 @@ neural network training.
 
 - Optimization intuition
 - Loss functions
+- Mean Squared Error (MSE)
 - Gradient descent
 - Learning rate
+- Convergence
 - Local minima
 
 ## Tools
@@ -66,9 +68,12 @@ neural network training.
 | File | Description |
 |---|---|
 | `functions.py` | Basic mathematical functions |
-| `derivatives.py` | Derivative concepts and implementations |
+| `derivatives.py` | Derivative concepts and numerical derivative implementation |
 | `partial_derivatives.py` | Partial derivative examples |
 | `gradients.py` | Gradient calculations |
+| `chain_rule.py` | Chain rule implementation |
+| `loss_functions.py` | Basic machine learning loss functions |
+| `gradient_descent.py` | Gradient descent implementation |
 | `exercises.py` | Calculus practice exercises |
 
 ## Learning Goal
@@ -76,43 +81,54 @@ neural network training.
 Understand how calculus is used in Machine Learning to
 minimize loss functions and optimize model parameters.
 
-The goal is to understand the mathematics behind gradients
-and optimization rather than only using ML libraries.
+The goal is to understand the mathematics behind derivatives,
+gradients, loss functions, and optimization rather than only
+using machine learning libraries.
 
 ## Progress
 
 ### Functions
 
-- [ ] Functions
-- [ ] Domain and range
-- [ ] Linear functions
-- [ ] Quadratic functions
-- [ ] Exponential functions
+- [x] Functions
+- [x] Domain and range
+- [x] Linear functions
+- [x] Quadratic functions
+- [x] Exponential functions
 
 ### Limits
 
 - [ ] Limits
 - [ ] Continuity
+- [ ] Basic limit intuition
 
 ### Derivatives
 
-- [ ] Derivatives
-- [ ] Power rule
-- [ ] Sum rule
-- [ ] Product rule
-- [ ] Chain rule
+- [x] Derivatives
+- [x] Geometric meaning
+- [x] Power rule
+- [x] Sum rule
+- [x] Product rule
+- [x] Chain rule
+- [x] Numerical derivative
 
 ### Multivariable Calculus
 
-- [ ] Partial derivatives
-- [ ] Gradients
+- [x] Partial derivatives
+- [x] Gradient
+- [x] Gradient vector
+- [x] Gradient magnitude
+- [ ] Directional derivatives
 
 ### Optimization
 
-- [ ] Loss functions
-- [ ] Gradient descent
-- [ ] Learning rate
-- [ ] Optimization intuition
+- [x] Optimization intuition
+- [x] Loss functions
+- [x] Mean Squared Error (MSE)
+- [x] Gradient descent
+- [x] Learning rate
+- [x] Convergence
+- [ ] Local minima
+- [ ] Learning rate experiments
 
 ## Machine Learning Connection
 
@@ -125,7 +141,23 @@ Calculus is used extensively in:
 - Gradient Descent
 - Deep Learning
 - Optimization
+- Model training
 
-## Next Step
+### Key Connection
 
-**03 - Probability**
+```text
+Function
+    ↓
+Derivative
+    ↓
+Gradient
+    ↓
+Loss Function
+    ↓
+Gradient Descent
+    ↓
+Parameter Updates
+    ↓
+Lower Loss
+    ↓
+Model Training
