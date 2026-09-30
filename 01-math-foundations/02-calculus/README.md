@@ -97,9 +97,9 @@ using machine learning libraries.
 
 ### Limits
 
-- [ ] Limits
-- [ ] Continuity
-- [ ] Basic limit intuition
+- [x] Limits
+- [x] Continuity
+- [x] Basic limit intuition
 
 ### Derivatives
 
@@ -127,8 +127,8 @@ using machine learning libraries.
 - [x] Gradient descent
 - [x] Learning rate
 - [x] Convergence
-- [ ] Local minima
-- [ ] Learning rate experiments
+- [x] Local minima
+- [x] Learning rate experiments
 
 ## Machine Learning Connection
 
