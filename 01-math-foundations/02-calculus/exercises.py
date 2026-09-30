@@ -116,3 +116,62 @@ for _ in range(20):
 print("\nExercise 8 - Gradient Descent:")
 print("Final x:", x)
 print("Final loss:", function(x))
+
+
+# -------------------------
+# Exercise 9 - Limit
+# -------------------------
+
+def limit_function(x):
+    return (x ** 2 - 1) / (x - 1)
+
+
+print("\nExercise 9 - Limit:")
+
+for x in [0.9, 0.99, 1.01, 1.1]:
+    print(x, limit_function(x))
+
+
+# -------------------------
+# Exercise 10 - Optimization
+# -------------------------
+
+def function(x):
+    return x ** 2
+
+
+def derivative(x):
+    return 2 * x
+
+
+x = 8
+learning_rate = 0.1
+
+for _ in range(20):
+    x = x - learning_rate * derivative(x)
+
+print("\nExercise 10 - Optimization:")
+print("Final x:", x)
+print("Final loss:", function(x))
+
+
+# -------------------------
+# Exercise 11 - Learning Rate
+# -------------------------
+
+learning_rates = [0.01, 0.1, 0.5]
+
+print("\nExercise 11 - Learning Rates:")
+
+for learning_rate in learning_rates:
+
+    x = 10
+
+    for _ in range(20):
+        x = x - learning_rate * derivative(x)
+
+    print(
+        f"Learning rate: {learning_rate}, "
+        f"Final x: {x:.5f}, "
+        f"Loss: {function(x):.5f}"
+    )
