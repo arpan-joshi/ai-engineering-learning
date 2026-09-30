@@ -59,3 +59,60 @@ gradient = np.array(gradient)
 
 print("\nExercise 5:")
 print("Gradient magnitude:", np.linalg.norm(gradient))
+
+
+# -------------------------
+# Exercise 6 - Chain Rule
+# -------------------------
+
+def chain_function(x):
+    return (3 * x + 2) ** 2
+
+
+def chain_derivative(x):
+    return 6 * (3 * x + 2)
+
+
+x = 2
+
+print("\nExercise 6 - Chain Rule:")
+print("Function:", chain_function(x))
+print("Derivative:", chain_derivative(x))
+
+
+# -------------------------
+# Exercise 7 - MSE
+# -------------------------
+
+import numpy as np
+
+actual = np.array([10, 20, 30])
+predicted = np.array([11, 19, 28])
+
+mse = np.mean((actual - predicted) ** 2)
+
+print("\nExercise 7 - MSE:")
+print(mse)
+
+
+# -------------------------
+# Exercise 8 - Gradient Descent
+# -------------------------
+
+def function(x):
+    return x ** 2
+
+
+def derivative(x):
+    return 2 * x
+
+
+x = 5
+learning_rate = 0.1
+
+for _ in range(20):
+    x = x - learning_rate * derivative(x)
+
+print("\nExercise 8 - Gradient Descent:")
+print("Final x:", x)
+print("Final loss:", function(x))
