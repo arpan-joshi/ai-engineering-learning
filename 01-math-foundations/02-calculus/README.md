@@ -68,12 +68,16 @@ neural network training.
 | File | Description |
 |---|---|
 | `functions.py` | Basic mathematical functions |
-| `derivatives.py` | Derivative concepts and numerical derivative implementation |
+| `limits.py` | Numerical limit examples |
+| `continuity.py` | Basic continuity examples |
+| `derivatives.py` | Derivative concepts and numerical derivative |
 | `partial_derivatives.py` | Partial derivative examples |
 | `gradients.py` | Gradient calculations |
 | `chain_rule.py` | Chain rule implementation |
 | `loss_functions.py` | Basic machine learning loss functions |
-| `gradient_descent.py` | Gradient descent implementation |
+| `gradient_descent.py` | Basic gradient descent implementation |
+| `learning_rate.py` | Learning rate experiments |
+| `optimization.py` | Optimization and local minimum demonstration |
 | `exercises.py` | Calculus practice exercises |
 
 ## Learning Goal
