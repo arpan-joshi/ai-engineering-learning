@@ -29,13 +29,13 @@ Understanding how code interacts with hardware is crucial for optimization:
 | **Python** | Phases 1-12 (ML, DL, NLP, Vision, Audio, LLMs) | `uv` |
 | **TypeScript** | Phases 13-17 (Tools, Agents, Swarms, Infra) | `pnpm` |
 | **Rust** | Phases 12, 15-17 (Performance-critical systems) | `cargo` |
-| **Julia** | Phase 1 (Math foundations) | `Pkg` |
+| **Julia(optional)** | Phase 1 (Math foundations) | `Pkg` |
 
 ---
 
 ## 📜 Verification & Artifacts
 *Add logs, scripts, or outputs proving your configurations are functional here.*
 
-- [ ] Python, Node.js, Rust, and Julia installation outputs.
-- [ ] PyTorch/TensorFlow script showing active GPU/CUDA acceleration.
-- [ ] Shared configuration files (e.g., system paths, global settings).
+- [x] Python, Node.js, Rust, and Julia installation outputs.
+- [x] PyTorch/TensorFlow script showing active GPU/CUDA acceleration.
+- [x] Shared configuration files (e.g., system paths, global settings).
