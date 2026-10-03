@@ -78,6 +78,7 @@ neural network training.
 | `gradient_descent.py` | Basic gradient descent implementation |
 | `learning_rate.py` | Learning rate experiments |
 | `optimization.py` | Optimization and local minimum demonstration |
+| `directional_derivatives.py` | Directional derivative using gradients |
 | `exercises.py` | Calculus practice exercises |
 
 ## Learning Goal
@@ -121,7 +122,7 @@ using machine learning libraries.
 - [x] Gradient
 - [x] Gradient vector
 - [x] Gradient magnitude
-- [ ] Directional derivatives
+- [x] Directional derivatives
 
 ### Optimization
 
