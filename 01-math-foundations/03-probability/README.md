@@ -72,6 +72,11 @@ used in Machine Learning.
 | `expectation_variance.py` | Mean, variance and standard deviation |
 | `covariance_correlation.py` | Covariance and correlation |
 | `joint_probability.py` | Joint probability |
+| `probability_distributions.py` | Normal distribution |
+| `bernoulli_distribution.py` | Bernoulli distribution |
+| `binomial_distribution.py` | Binomial distribution |
+| `uniform_distribution.py` | Uniform distribution |
+| `poisson_distribution.py` | Poisson distribution |
 | `exercises.py` | Probability practice exercises |
 
 ## Learning Goal
@@ -113,10 +118,10 @@ Probability is used in:
 ### Distributions
 
 - [x] Normal distribution
-- [ ] Bernoulli distribution
-- [ ] Binomial distribution
-- [ ] Uniform distribution
-- [ ] Poisson distribution
+- [x] Bernoulli distribution
+- [x] Binomial distribution
+- [x] Uniform distribution
+- [x] Poisson distribution
 
 ### Statistics
 
