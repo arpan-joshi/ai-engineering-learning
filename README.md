@@ -6,11 +6,11 @@ Welcome to my daily tracking repository for the **AI Engineering From Scratch** 
 
 ## 📅 Daily Progress Tracker
 
-| Date | Phase | Topic / Lesson | Key Takeaway / Artifact | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| 2026-09-20 | Phase 00 | Repo Setup & Git Automation | Configured workspace and folder structure | 🟢 Done |
-| | Phase 01 | | | ⏳ Next |
-| | | | | |
+| Date       | Phase    | Topic / Lesson              | Key Takeaway / Artifact                                                                  | Status   |
+|------------|----------|-----------------------------|------------------------------------------------------------------------------------------|----------|
+| 2026-09-20 | Phase 00 | Repo Setup & Git Automation | Configured workspace and folder structure                                                | 🟢 Done  |
+| 2026-10-04 | Phase 01 | Math Foundations            | Completed Linear Algebra, Calculus, Probability & Statistics with Python implementations | 🟢 Done  |
+|            | Phase 02 | Machine Learning            |                                                                                          | ⏳ Next  |
 
 ---
 
