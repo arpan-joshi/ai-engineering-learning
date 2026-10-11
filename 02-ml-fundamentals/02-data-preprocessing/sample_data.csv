@@ -1,0 +1,11 @@
+Age,Salary,Experience,City,Education
+21,30000,1,Raipur,Bachelor
+25,,3,Delhi,Master
+,45000,5,Raipur,Bachelor
+30,50000,8,Mumbai,Master
+28,42000,4,Delhi,Bachelor
+35,70000,10,Mumbai,PhD
+22,32000,2,Raipur,Bachelor
+40,90000,15,Delhi,PhD
+27,38000,3,Mumbai,Master
+32,60000,9,Raipur,Master
