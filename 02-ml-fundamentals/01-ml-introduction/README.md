@@ -49,7 +49,7 @@ Machine Learning and the typical ML development workflow.
 - [x] Training and testing data
 - [x] Overfitting and underfitting
 - [x] Machine Learning workflow
-- [ ] Complete exercises independently
+- [x] Complete exercises independently
 
 ## Next Step
 
